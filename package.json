@@ -1,0 +1,16 @@
+{
+  "name": "date-utils",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Utilities for dealing with Dates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Rob Last",
+    "email": "robert.last@gmail.com",
+    "url": "https://github.com/robertlast"
+  },
+  "license": "ISC"
+}
