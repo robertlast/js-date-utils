@@ -1,14 +1,15 @@
 "use strict";
 /**
  * Get a new date from the given date offsetted by the given offsets.
+ * @function offset
  * @param {string|Date} baseDate
- * @param {Object} offsets - The offsets.
- * @param {number} [offsets.years] - # years to offset.
- * @param {number} [offsets.months] - # months to offset.
- * @param {number} [offsets.days] - # days to offset.
+ * @param {Object} offsets The offsets.
+ * @param {number} [offsets.years] # years to offset.
+ * @param {number} [offsets.months] # months to offset.
+ * @param {number} [offsets.days] # days to offset.
  * @returns {Date} - The new offsetted Date.
  */
-module.exports = function offset(baseDate, offsets){
+function offset(baseDate, offsets){
 	// Read in the offsets arguments:
 	var years = offsets.years || 0;
 	var months = offsets.months || 0;
@@ -20,3 +21,5 @@ module.exports = function offset(baseDate, offsets){
 	offsettedDate.setDate(baseDate.getDate() + days);
 	return offsettedDate;
 }
+
+module.exports = offset;

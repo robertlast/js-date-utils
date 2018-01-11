@@ -2,10 +2,11 @@
   "name": "date-utils",
   "private": true,
   "version": "0.1.0",
-  "description": "Utilities for dealing with Dates.",
+  "description": "Utilities for working with Dates.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha **/*.spec.js"
+    "test": "mocha **/*.spec.js",
+    "docs": "doxdox '*.js' --ignore 'index.js' --layout markdown --output README.md"
   },
   "author": {
     "name": "Rob Last",
@@ -15,6 +16,7 @@
   "license": "ISC",
   "devDependencies": {
     "chai": "^4.1.2",
+    "doxdox": "^2.0.3",
     "mocha": "^4.0.1"
   }
 }
