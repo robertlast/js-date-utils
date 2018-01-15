@@ -2,12 +2,12 @@
 /**
  * Get a new date from the given date offsetted by the given offsets.
  * @function offset
- * @param {string|Date} baseDate
+ * @param {string|Date} baseDate The date to be offsetted.
  * @param {Object} offsets The offsets.
  * @param {number} [offsets.years] # years to offset.
  * @param {number} [offsets.months] # months to offset.
  * @param {number} [offsets.days] # days to offset.
- * @returns {Date} - The new offsetted Date.
+ * @returns {Date} The new offsetted Date.
  */
 function offset(baseDate, offsets){
 	// Read in the offsets arguments:

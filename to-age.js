@@ -1,9 +1,10 @@
 "use strict";
 /**
  * Calculate age from the given birthday.
- * SOURCE: https://stackoverflow.com/questions/4060004/calculate-age-in-javascript
- * @param {string} dobString - Birthday/DOB.
- * @returns {number} - The age in number of whole years.
+ * @see SOURCE: https://stackoverflow.com/questions/4060004/calculate-age-in-javascript
+ * @function getAgeFromDateOfBirth
+ * @param {string} dobString Birthday/DOB.
+ * @returns {number} The age in number of whole years.
  */
 function getAgeFromDateOfBirth(dobString) {
   var today = new Date();
