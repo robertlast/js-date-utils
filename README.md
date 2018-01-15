@@ -156,7 +156,7 @@ Get a new date from the given date offsetted by the given offsets.
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| baseDate | `string` `Date`  |  | &nbsp; |
+| baseDate | `string` `Date`  | The date to be offsetted. | &nbsp; |
 | offsets | `Object`  | The offsets. | &nbsp; |
 | offsets.years | `number`  | # years to offset. | *Optional* |
 | offsets.months | `number`  | # months to offset. | *Optional* |
@@ -168,7 +168,7 @@ Get a new date from the given date offsetted by the given offsets.
 ##### Returns
 
 
-- `Date`  - The new offsetted Date.
+- `Date`  The new offsetted Date.
 
 
 
@@ -179,7 +179,6 @@ Get a new date from the given date offsetted by the given offsets.
 #### getAgeFromDateOfBirth(dobString) 
 
 Calculate age from the given birthday.
-SOURCE: https://stackoverflow.com/questions/4060004/calculate-age-in-javascript
 
 
 
@@ -188,7 +187,7 @@ SOURCE: https://stackoverflow.com/questions/4060004/calculate-age-in-javascript
 
 | Name | Type | Description |  |
 | ---- | ---- | ----------- | -------- |
-| dobString | `string`  | - Birthday/DOB. | &nbsp; |
+| dobString | `string`  | Birthday/DOB. | &nbsp; |
 
 
 
@@ -196,7 +195,7 @@ SOURCE: https://stackoverflow.com/questions/4060004/calculate-age-in-javascript
 ##### Returns
 
 
-- `number`  - The age in number of whole years.
+- `number`  The age in number of whole years.
 
 
 
